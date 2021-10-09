@@ -1,0 +1,56 @@
+#mini-nav{
+    display:none;
+}
+#hide-bars{
+    display: none;
+}
+#mobi-header{
+    display:none;
+}
+#mobiNavbar{
+    display: none;
+}
+#search-header{
+    display: none;
+}
+#layer-search{
+    display: none;
+}
+#suggest-box{
+    display: none;
+}
+#search-result-show-desktop{
+    display: none;
+}
+@media screen and (max-width:1250px){
+    #mini-nav{
+        display:block;
+    }
+    #navbar{
+        display: none;
+    }
+    #hide-bars{
+        display: block;
+    }
+    #show-bars{
+        display: none;
+    }
+}
+
+@media screen and (max-width:1050px){
+    #mobi-header{
+        display: block;
+    }
+    #header{
+        display: none;
+    }
+    #navbar{
+        display: none;
+    }
+    #mini-nav{
+        display:none;
+    }
+    #mobiNavbar{
+        display: block;
+    }
+}

@@ -1,0 +1,38 @@
+.library-body{
+    background-color:#eee;
+}
+.library-gate{
+    width: 40rem;
+    height: 15rem;
+    /* border: 1px solid red; */
+    margin: 0 auto;
+    margin-top: 4rem;
+}
+.yt-library-gate{
+    max-width: 100%;
+    height: 100%;
+}
+.library-text{
+    margin-top: 0rem;
+}
+.library-btn{
+    margin-top: 3rem;
+}
+@media screen and (max-width:650px){
+    .library-gate{
+        width: 30rem;
+        height: 15rem;
+        /* border: 1px solid red; */
+        margin: 0 auto;
+        margin-top: 4rem;
+    }
+}
+@media screen and (max-width:490px){
+    .library-gate{
+        width:100%;
+        height: 13rem;
+        /* border: 1px solid red; */
+        margin: 0 auto;
+        margin-top: 4rem;
+    }
+}

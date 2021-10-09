@@ -1,0 +1,596 @@
+.yt-body{
+    width: 100%;
+    height: 100vh;
+    /* border: 1px solid red; */
+    padding-left: 14.95rem;
+    padding-top: 4rem;
+}
+.visible-body{
+    width: 100%;
+    height: auto;
+    padding-top: 4rem;
+    /* border: 2px solid blue; */
+    overflow-y: auto;
+
+}
+.category-header{
+    width: 100%;
+    /* border: 1px solid blue; */
+    padding-left: 20px;
+    height:3.5rem;
+    position: fixed;
+    top:4rem;
+    left:15rem;
+    border-bottom:1px solid #d4d4d4;
+    background-color: #fff;
+    padding-right: 2rem;
+    z-index: 2;
+}
+
+.wrap-category{
+    width: 83%;
+    height: 3.5rem;
+    /* border: 2px solid blue; */
+    overflow-x:auto;
+    white-space: nowrap;
+    padding-right: 2rem;
+    scrollbar-width: none;
+
+}
+.wrap-category::-webkit-scrollbar{
+    display: none;
+}
+.header-categories{
+    font-size: 1rem;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin-top: 10px;
+    display: inline-block;
+    cursor: pointer;
+    padding-left: 10px;
+    /* -webkit-user-select:none; */
+    user-select:none;
+    padding-right: 10px;
+    border-radius: 2rem;
+    background-color: #EAEAEA;
+    border:1px solid #cccccc;
+    transition: all 0.3s ease-in-out;
+    margin-right: 10px;
+}
+.header-categories:hover{
+    background-color:#dddddd;
+}
+.active-category{
+    background-color: #030303;
+    color:#fff;
+    border: 1px solid #030303;
+}
+.active-category:hover{
+    background-color: #030303;
+    color:#fff;
+    border: 1px solid #030303;
+}
+.video-container{
+    width: 100%;
+    height:auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    /* border: 0px solid #dbdbdb; */
+    /* text-align: center; */
+}
+.vid-card{
+    height: 19.5rem;
+    width: 24.8%;
+    /* border:1px solid #999; */
+    display: inline-block;
+    padding-left: 11px;
+    padding-right: 11px;
+    padding-top: 20px;
+}
+.template-img{
+    height: 10.1rem;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    /* border:1px solid #999; */
+}
+.video-length{
+    font-size: 0.8rem;
+    background-color: #030303;
+    color:#fff;
+    position: absolute;
+    right:0.5rem;
+    bottom: 0.5rem;
+    padding: 0px;
+    font-weight: 500;
+    border-radius: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+
+}
+.video-template-img{
+    width: 100%;
+    height: 100%;
+}
+.logo-title{
+    height:8rem;
+    width: 100%;
+    padding-top: 10px;
+    position: relative;
+    color:#030303;
+    /* border:1px solid #999; */
+}
+.for-logo-card{
+    width: 2.5rem;
+    height: auto;
+    float: left;
+    /* border:1px solid rgb(253, 108, 108); */
+}
+.for-title-card{
+    width: 82%;
+    float: right;
+    height: auto;
+    padding-bottom: 1rem;
+    /* border:1px solid rgb(253, 108, 108); */
+}
+.main-for-logo{
+    width: 2.5rem;
+    height: 2.5rem;
+    /* border:1px solid rgb(253, 108, 108); */
+    border-radius: 50%;
+    overflow: hidden;
+}
+.creater-channel-logo{
+    width: 100%;
+    height: 100%;
+}
+.video-title{
+    font-size: 1rem;
+    font-weight: 600;
+    height: 3.1rem;
+    /* border:1px solid rgb(253, 108, 108); */
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    position: relative;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    z-index: 1;
+}
+.channel-name-card{
+    font-size: 1rem;
+    color:#444;
+    width: 98%;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    z-index: 1;
+    text-overflow: ellipsis;
+
+}
+#mobi-channel-info{
+    display:none;
+}
+
+
+@media screen and (max-width:1250px){
+    .yt-body{
+        width: 100%;
+        height:100vh;
+        /* border: 1px solid red; */
+        padding-left: 5rem;
+        padding-top: 4rem;
+        scrollbar-width: none;
+    }
+    .visible-body::-webkit-scrollbar{
+        display: none;
+    }
+    .visible-body{
+        width: 100%;
+        height: 100%;
+        padding-top: 4rem;
+        /* border: 2px solid blue; */
+    }
+    .category-header{
+        width: 100%;
+        /* border: 1px solid blue; */
+        padding-left: 20px;
+        height:3.5rem;
+        position: fixed;
+        top:4rem;
+        left:4.61rem;
+        border-bottom:1px solid #d4d4d4;
+        border-top:1px solid #d4d4d4;
+        background-color: #fff;
+        padding-right: 2rem;
+        z-index: 2;
+    }
+    
+    .wrap-category{
+        width: 94.3%;
+        height: 3.5rem;
+        /* border: 2px solid blue; */
+        overflow-x:auto;
+        white-space: nowrap;
+        padding-right: 2rem;
+        scrollbar-width: none;
+    
+    }
+    .wrap-category::-webkit-scrollbar{
+        display: none;
+    }
+    .header-categories{
+        font-size: 1rem;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        margin-top: 10px;
+        display: inline-block;
+        cursor: pointer;
+        padding-left: 10px;
+        /* -webkit-user-select:none; */
+        user-select:none;
+        padding-right: 10px;
+        border-radius: 2rem;
+        background-color: #EAEAEA;
+        border:1px solid #cccccc;
+        transition: all 0.3s ease-in-out;
+        margin-right: 10px;
+    }
+    .header-categories:hover{
+        background-color:#dddddd;
+    }
+    .active-category{
+        background-color: #030303;
+        color:#fff;
+        border: 1px solid #030303;
+    }
+    .active-category:hover{
+        background-color: #030303;
+        color:#fff;
+        border: 1px solid #030303;
+    }
+    .video-container{
+        width: 100%;
+        height:auto;
+        padding-left: 10px;
+        padding-right: 10px;
+        /* border: 0px solid #dbdbdb; */
+        /* text-align: center; */
+    }
+    .vid-card{
+        height: 16.5rem;
+        width: 24.8%;
+        /* border:1px solid #999; */
+        display: inline-block;
+        padding-left: 11px;
+        padding-right: 11px;
+        padding-top: 20px;
+    }
+    .template-img{
+        height: 9rem;
+        width: 100%;
+        position: relative;
+        overflow: hidden;
+        /* border:1px solid #999; */
+    }
+    .video-length{
+        font-size: 0.8rem;
+        background-color: #030303;
+        color:#fff;
+        position: absolute;
+        right:0.5rem;
+        bottom: 0.5rem;
+        padding: 0px;
+        font-weight: 500;
+        border-radius: 2px;
+        padding-left: 5px;
+        padding-right: 5px;
+        /* border:1px solid #999; */
+    
+    }
+    .video-template-img{
+        width: 100%;
+        height: 100%;
+    }
+    .logo-title{
+        height:9rem;
+        width: 100%;
+        padding-top: 10px;
+        position: relative;
+        color:#030303;
+        /* border:1px solid #999; */
+    }
+    .for-logo-card{
+        width: 2.1rem;
+        height: auto;
+        float: left;
+        /* border:1px solid rgb(253, 108, 108); */
+    }
+    .for-title-card{
+        width: 80%;
+        float: right;
+        height: auto;
+        padding-bottom: 1rem;
+        /* border:1px solid rgb(253, 108, 108); */
+    }
+    .main-for-logo{
+        width: 2rem;
+        height: 2rem;
+        /* border:1px solid rgb(253, 108, 108); */
+        border-radius: 50%;
+        overflow: hidden;
+    }
+    .creater-channel-logo{
+        width: 100%;
+        height: 100%;
+    }
+    .video-title{
+        font-size: 1rem;
+        font-weight: 600;
+        
+        height: 3.1rem;
+        /* border:1px solid rgb(253, 108, 108); */
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        position: relative;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        z-index: 1;
+    }
+    .channel-name-card{
+        font-size: 1rem;
+        color:#444;
+        width: 98%;
+        display: -webkit-box;
+        -webkit-line-clamp: 1;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        z-index: 1;
+        text-overflow: ellipsis;
+    
+    }    
+}
+
+@media screen and (max-width:1050px){
+    .yt-body{
+        padding-left: 0;
+        padding-top: 3rem;
+    }
+    .category-header{
+        left: 0;
+        top: 3rem;
+    }
+    .wrap-category{
+        width: 100%;
+    }
+    .visible-body{
+        padding-bottom: 5rem;
+    }
+
+}
+@media screen and (max-width:999px){
+    .vid-card{
+        height: auto;
+        width: 33%;
+        /* border:1px solid #999; */
+        display: inline-block;
+        padding-left: 11px;
+        padding-right: 11px;
+        padding-top: 20px;
+    }
+    .template-img{
+        height: 11rem;
+        width: 100%;
+        position: relative;
+        overflow: hidden;
+        /* border:1px solid #999; */
+    }
+    .for-logo-card{
+        width: 2.5rem;
+        height: auto;
+        float: left;
+        /* border:1px solid rgb(253, 108, 108); */
+    }
+    .for-title-card{
+        width: 80%;
+        float: right;
+        height: auto;
+        padding-bottom: 1rem;
+        /* border:1px solid rgb(253, 108, 108); */
+    }
+    .main-for-logo{
+        width: 2.5rem;
+        height: 2.5rem;
+        /* border:1px solid rgb(253, 108, 108); */
+        border-radius: 50%;
+        overflow: hidden;
+    }
+}
+@media screen and (max-width:850px){
+    .template-img{
+        height: 9rem;
+    }
+    .for-title-card{
+        width: 78%;
+    }
+    .visible-body{
+        padding-bottom: 3rem;
+    }
+}
+
+@media screen and (max-width:720px){
+    .vid-card{
+        height: auto;
+        width: 49.5%;
+        /* border:1px solid #999; */
+        display: inline-block;
+        padding-left: 11px;
+        padding-right: 11px;
+        padding-top: 20px;
+    }
+    .template-img{
+        height: 11rem;
+        width: 100%;
+        position: relative;
+        overflow: hidden;
+        /* border:1px solid #999; */
+    }
+    .for-logo-card{
+        width: 2.5rem;
+        height: auto;
+        float: left;
+        /* border:1px solid rgb(253, 108, 108); */
+    }
+    .for-title-card{
+        width: 80%;
+        float: right;
+        height: auto;
+        padding-bottom: 1rem;
+        /* border:1px solid rgb(253, 108, 108); */
+    }
+    .main-for-logo{
+        width: 2.5rem;
+        height: 2.5rem;
+        /* border:1px solid rgb(253, 108, 108); */
+        border-radius: 50%;
+        overflow: hidden;
+    }
+
+}
+
+@media screen and (max-width:570px){
+    .yt-body{
+        padding-top:2rem;
+    }
+    .template-img{
+        height: 9rem;
+    }
+    .for-title-card{
+        width: 78%;
+    }
+}
+@media screen and (max-width:510px){
+    .template-img{
+        height: 8rem;
+    }
+    .for-title-card{
+        width: 78%;
+    }
+}
+
+
+@media screen and (max-width:490px){
+    
+    .yt-body{
+        width: 100%;
+        height:100vh;
+        padding: 0;
+        /* border: 1px solid red; */
+        padding-top:2rem;
+        scrollbar-width: none;
+    }
+    .visible-body{
+        padding-bottom: 3rem;
+    }
+    .category-header{
+        height:3rem;
+        padding-top: 0;
+        padding-left: 10px;
+        padding-right: 10px;
+        opacity: 0.98;
+    }
+    .header-categories{
+        padding-top: 4px;
+        padding-bottom: 4px;
+        margin-top: 7px;
+        font-size: 0.9rem;
+
+    }
+    .wrap-category{
+        width: 100%;
+
+    }
+    .active-category{
+        background-color: #535353;
+    }
+    .vid-card{
+        height: auto;
+        width: 100%;
+        /* border:1px solid #999; */
+        display: inline-block;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 0px;
+    }
+    .video-container{
+        width: 100%;
+        height:auto;
+        padding-left: 0px;
+        padding-right: 0px;
+
+    }
+    .template-img{
+        height: 13.9rem;
+        width: 100%;
+        position: relative;
+        overflow: hidden;
+        /* border:1px solid #999; */
+    }
+
+    .for-logo-card{
+        width: 2.5rem;
+        height: auto;
+        float: left;
+        /* border:1px solid rgb(253, 108, 108); */
+    }
+    .for-title-card{
+        width: 84%;
+        float: right;
+        height: auto;
+        padding-bottom: 1rem;
+        /* border:1px solid rgb(253, 108, 108); */
+    }
+    
+    .main-for-logo{
+        width: 2.5rem;
+        height: 2.5rem;
+        /* border:1px solid rgb(253, 108, 108); */
+        border-radius: 50%;
+        overflow: hidden;
+    }
+    .logo-title{
+        height:4.8rem;
+        width: 100%;
+        padding-top: 10px;
+        padding-left: 12px;
+        position: relative;
+        color:#030303;
+        /* border:1px solid #999; */
+    }
+    .video-title{
+        width: 95%;
+        font-size: 0.9rem;
+        font-weight: 500;
+        height: 2.75rem;
+     /* border:1px solid rgb(253, 108, 108); */
+
+    }
+    #videos-views{
+        display: none;
+    }
+    #channel-name{
+        display: none;
+    }
+    #mobi-channel-info{
+        display: block;
+    }
+    .mobi-channel-info{
+        display: block;
+        font-size: 0.8rem;
+        color: #797979;
+        width: 90%;
+    }
+
+}

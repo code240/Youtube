@@ -1,0 +1,56 @@
+.explore-body{
+    text-align: center;
+    background-color: rgb(245, 245, 245);
+}
+.sad-emoji{
+    font-size: 9rem;
+    display: block;
+    margin-top: 7.5rem;
+    color: rgb(151, 151, 151);
+    font-weight: 300;
+    display: block;
+}
+.nothing-to-show{
+    font-size: 1.8rem;
+    margin-top: 2rem;
+    display: block;
+    font-family: sans-serif;
+}
+.nothing-to-show-second{
+    font-size: 1rem;
+    margin-top: 0.5rem;
+    display: block;
+    font-family: sans-serif;
+}
+.visit-youtube-btn{
+    border: 2px solid #0D6EFD;
+    display: block;
+    margin: 0 auto;
+    margin-top: 4rem;
+    color:#0D6EFD;
+    font-weight: 500;
+    transition: 0.5s ease-in-out;
+}
+.visit-youtube-btn:hover{
+    background-color: #0D6EFD;
+    color:#fff;
+}
+
+@media screen and (max-width:490px){
+    .sad-emoji{
+        font-size: 9rem;
+        display: block;
+        margin-top: 4rem;
+        color: rgb(194, 194, 194);
+        display: block;
+    }
+    .nothing-to-show-second{
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 1rem;
+        color:#888;
+    }
+    .visit-youtube-btn{
+        margin-top: 2.5rem;
+    }
+}

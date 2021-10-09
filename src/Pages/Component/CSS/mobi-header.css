@@ -1,0 +1,69 @@
+.mobi-header{
+    height: 3rem;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    position: fixed;
+    top:0;
+    left: 0;
+    box-shadow: 0px 2px 2px rgb(189, 189, 189), 0px -2px 2px rgb(224, 224, 224);
+    z-index: 10;
+}
+.for-logo-and-bar-mobi {
+    width: 9.5rem;
+    height: 2.98rem;
+    background-color: #ffffff;
+    padding-top: 0rem;
+    padding-left: 0.7rem;
+    /* border: 1px solid red; */
+    float: left;
+    /* display: inline-block; */
+  }
+  .for-logo-mobi{
+    width: 100%;
+    /* border: 1px solid red; */
+    height: 2.97rem;
+    padding: 10px;
+    padding-left: 0px;
+    padding-right: 35%;
+  }
+  .yt-logo-mobi{
+    width: 100%;
+    height: 76%;
+  }
+  .for-search-and-user{
+    /* display: inline-block; */
+    width: 10rem;
+    height: 3rem;
+    float: right;
+    /* border: 1px solid red; */
+}
+.for-search-icon{
+    height: 3rem;
+    /* border: 1px solid red; */
+    float: left;
+    width: fit-content;
+    padding-left: 4.5rem;
+    padding-top: 0.8rem;
+}
+.mobi-search-icon{
+    font-size: 1.4rem;
+}
+.for-user-image-mobi{
+    height: 3rem;
+    float: right;
+    /* border: 1px solid #43aaff; */
+    width: fit-content;
+    padding-right: 1rem;
+    padding-top: 0.67rem;
+}
+.for-user-image-main-mobi{
+    height: 1.65rem;
+    width: 1.65rem;
+    border-radius: 50%;
+    /* border: 1px solid red; */
+    overflow: hidden;
+}
+.user-img-mobi{
+    height: 100%;
+    width: 100%;
+}

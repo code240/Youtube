@@ -1,0 +1,90 @@
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+body{
+    background-color: #F9F9F9;
+    user-select:none;
+
+}
+.my-navbar{
+    width: 15rem;
+    height: 100vh;
+    overflow-y: auto;
+    position: fixed;
+    top:4rem;
+    left:0;
+    padding-top: 3px;
+    background-color: rgb(255, 255, 255);
+}
+
+.my-navbar::-webkit-scrollbar{
+    display: none;
+}
+.parent-of-all-btn-in-navbar{
+    width: 96%;
+    height: auto;
+    border: 0px solid red;
+    padding-bottom: 10rem;
+}
+.btn-three-main-div{
+    border-bottom: 1px solid rgb(235, 235, 235);
+    margin-top: 3px;
+    height: 8.43rem;
+}
+.icons{
+    display: block;
+    line-height: 2.53rem;
+    padding-left: 1.6rem;
+    font-weight: 500;
+    font-size: 0.9rem;
+    cursor: pointer;
+    color:#555;
+}
+.icons:hover{
+    background-color: #f5f5f5;
+}
+.active{
+    background-color: #eee;
+    font-weight: 700;
+}
+.large{
+    font-size: 1.2rem;
+    /* font-weight: 400; */
+}
+.btn-five-main-div{
+    border-bottom: 1px solid rgb(235, 235, 235);
+    margin-top: 3px;
+    height: auto;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+}
+.more-icon-div{
+    padding-top:0rem;
+}
+.navbar-heading-text{
+    font-size: 0.9rem;
+    color: #606060;
+    padding-left: 1.5rem;
+    padding-top: 0;
+    cursor:unset;
+    text-transform: uppercase;
+}
+.navbar-heading-text:hover{
+    background-color: #ffffff;
+}

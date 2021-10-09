@@ -1,0 +1,37 @@
+.mobiNavbar{
+    width: 100%;
+    height: 3.4rem;
+    position: fixed;
+    padding-top:0.3rem ;
+    bottom: 0;
+    left: 0;
+    background-color:#fff;
+    border-top: 1px solid #dcdcdc;
+    z-index: 5;
+    text-align: center;
+}
+.mobi-nav-icon-div{
+    width: 33%;
+    /* border: 1px solid #888; */
+    height:3rem;
+    float: left;
+    padding-top: 0.1rem;
+}
+.icon-home-mobi{
+    font-size: 1.5rem;
+
+}
+.home-icon-1{
+    font-size: 1.8rem;
+}
+.mobi-nav-icon-text{
+    font-size: 0.8rem;
+    margin-top: -4px;
+    display: block;
+}
+.mobi-nav-text-2{
+    margin-top: -10px;
+}
+.mobi-nav-text-1{
+    margin-top: -10px;
+}

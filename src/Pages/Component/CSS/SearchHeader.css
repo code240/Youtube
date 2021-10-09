@@ -1,0 +1,123 @@
+.search-header-mobi{
+    height:3rem;
+    background-color: #f5f5f5;
+    width: 100%;
+    position: fixed;
+    top:0;
+    left: 0;
+    box-shadow: 0px 0px 0px rgb(189, 189, 189), 0px 0px 0px rgb(224, 224, 224);
+    z-index: 10;
+}
+.for-arrow-div-in-search-header{
+    /* border: 1px solid #999; */
+    width: 3rem;
+    float: left;
+    height: 3rem;
+    padding-left: 0.6rem;
+    padding-top: 0.6rem;
+}
+.for-search-div-in-search-header{
+    /* border: 1px solid #999; */
+    width: 70%;
+    float: left;
+    height: 3rem;
+    padding-top: 0.3rem;
+}
+.for-search-icon-in-search-header{
+    /* border: 1px solid rgb(197, 26, 26); */
+    width: 3rem;
+    float:right;
+    height: 3rem;
+    padding-top: 0.6rem;
+    padding-left: 0.5rem;
+}
+.search-bar-mobi{
+    height: 2rem;
+    width: 100%;
+    background-color: inherit;
+    border: 0px solid;
+    font-size: 1rem;
+    border-bottom: 2px solid #000;
+}
+.search-bar-mobi:focus{
+    outline: none;
+    /* border: 0; */
+}
+.layer-search{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.596);
+    top:3rem;
+    left: 0rem;
+    z-index: 9;
+    /* opacity: 0.95; */
+}
+.suggestion-box-search-mobi{
+    width: 100%;
+    height: auto;
+    padding-bottom: 1rem;
+    position: fixed;
+    z-index: 10;
+    top:3rem;
+    padding-top: 0.6rem;
+    display: block;
+    left: 0;
+    background-color: #F9F9F9;
+}
+.line-answer{
+    width: 100%;
+    padding: 0;
+    height: 2rem;
+}
+.north-west-icon{
+    /* display: inline-block; */
+    font-size: 1rem;
+    float: left;
+    padding-left: 0.5rem;
+    /* border: 1px solid red; */
+    font-weight: 500;
+    line-height: 2rem;
+
+}
+.search-results-lines-mobi{
+    font-size: 0.9rem;
+    font-weight: 500;
+    width: 80%;
+    float: left;
+    /* display: inline-block; */
+    padding-left: 0.4rem;
+    /* border: 1px solid red; */
+    padding-right: 0.4rem;
+    line-height: 2rem;
+}
+.line-answer:hover{
+    background-color: #eee;
+}
+
+
+
+
+
+
+@media screen and (max-width:1050px) {
+    .for-search-div-in-search-header{
+        width: 85%;
+    }
+}
+@media screen and (max-width:750px) {
+    .for-search-div-in-search-header{
+        width: 80%;
+    }
+}
+@media screen and (max-width:500px) {
+    .for-search-div-in-search-header{
+        width: 74%;
+    }
+}
+@media screen and (max-width:1050px) {       
+    .for-search-div-in-search-header{
+        width: 70%;
+    }
+}
+
